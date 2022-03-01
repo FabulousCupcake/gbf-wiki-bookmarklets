@@ -17,10 +17,10 @@ const OUGI_DESC = document.querySelector(".prt-detail-special .comment-m").textC
 
 const FLAVOR = document.querySelector(".prt-flavor").textContent.trim();
 
-const result = nonEmpty`|jpname=${NAME}
-|jpougi_name=${OUGI_NAME}
-|jpougi=${OUGI_DESC}
-|jpflavor=${FLAVOR}
+const result = nonEmpty`|jpname= ${NAME}
+|jpougi_name= ${OUGI_NAME}
+|jpougi= ${OUGI_DESC}
+|jpflavor= ${FLAVOR}
 `;
 
 copyToClipboard(result);
