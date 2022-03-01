@@ -6,26 +6,7 @@ if (!location.hash.match("#gacha/summon")) {
   if (answer === false) return;
 }
 
-const ID = document.querySelector('.prt-summon-image > .img-summon').getAttribute("src").match(/\/b\/(.+?)\./)[1];
-
 const NAME = document.querySelector(".prt-summon-info > div:first-child").textContent;
-
-const RARITY = (() => {
-  if (document.querySelector(".prt-rarity-4")) return "ssr";
-  if (document.querySelector(".prt-rarity-3")) return "sr";
-  if (document.querySelector(".prt-rarity-2")) return "r";
-  return "?";
-})();
-
-const ELEMENT = (() => {
-  if (document.querySelector(".ico-type1")) return "fire";
-  if (document.querySelector(".ico-type2")) return "water";
-  if (document.querySelector(".ico-type3")) return "earth";
-  if (document.querySelector(".ico-type4")) return "wind";
-  if (document.querySelector(".ico-type5")) return "light";
-  if (document.querySelector(".ico-type6")) return "dark";
-  return "?";
-})();
 
 const VOICE_ACTOR = document.querySelector(".txt-acter-name")?.innerText.split("\n").join(", ");
 
