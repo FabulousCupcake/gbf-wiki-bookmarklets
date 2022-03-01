@@ -129,7 +129,7 @@ const result = nonEmpty`{{Weapon
 |s3_4s_lvl=
 |s3_4s_desc=
 |reduce_advice=
-|reduce=premium
+|reduce=
 |flavor=${FLAVOR}
 }}
 `;
