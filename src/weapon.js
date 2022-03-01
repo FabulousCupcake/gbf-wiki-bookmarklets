@@ -77,6 +77,7 @@ const result = nonEmpty`{{Weapon
 |series=
 |group=
 |name=${NAME}
+|jpname=
 |element=${ELEMENT}
 |weapon=${TYPE}
 |rarity=${RARITY}
