@@ -50,9 +50,11 @@ const result = nonEmpty`{{Summon
 |rarity=${RARITY}
 |homescreen=
 |name=${NAME}
+|jpname=
 |link_jpwiki=
 |link_gamewith=
 |va=${VOICE_ACTOR}
+|jpva=
 |min_evo=0
 |base_evo=3
 |max_evo=
@@ -98,7 +100,7 @@ const result = nonEmpty`{{Summon
 |flb8=
 |rupies=
 |flavor=${FLAVOR}
-|reduce=premium
+|reduce=
 |reduce_advice=
 }}
 
